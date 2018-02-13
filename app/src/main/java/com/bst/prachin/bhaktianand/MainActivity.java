@@ -88,12 +88,6 @@ public class MainActivity extends AppCompatActivity
             vidView.setVideoURI(Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.hanuman));
         } else if (id == R.id.nav_slideshow) {
             vidView.setVideoURI(Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.bhajgovindam));
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
